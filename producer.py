@@ -17,4 +17,4 @@ for i in y:
     print("sent")
     data = i
     producer.send("netflix_movies", value=data)
-    sleep(2)
+    sleep(0.2)
